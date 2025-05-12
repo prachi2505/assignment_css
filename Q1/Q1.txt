@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Question 1</title>
+    <style>       
+        table
+        {
+            border-collapse:collapse;
+            width: 60%;
+        }
+        tr,th,td
+        {
+            text-align: center;
+            padding: 8px;
+            border:2px solid blue;
+        }
+        tr:nth-child(odd)
+        {
+            background-color: rgb(52, 250, 125);
+        }
+        tr:nth-child(even)
+        {
+            background-color: lightsalmon;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Regd No.</th>
+            <th>Branch</th>
+            <th>Sec</th>
+            <th>CGPA</th>
+        </tr>
+        <tr>
+            <td>Ansuman Swain</td>
+            <td>2241019588</td>
+            <td>CSE</td>
+            <td>36</td>
+            <td>9.5</td>
+        </tr>
+        <tr>
+            <td>Priyanka Sahoo</td>
+            <td>2241016666</td>
+            <td>CSE</td>
+            <td>36</td>
+            <td>9.47</td>
+        </tr>
+        <tr>
+            <td>Ayush Pattnaik</td>
+            <td>2241019999</td>
+            <td>CSE</td>
+            <td>36</td>
+            <td>9.42</td>
+        </tr>
+    </table>
+</body>
+</html>
