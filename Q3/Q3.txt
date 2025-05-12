@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Question 3</title>
+    <style>
+        .img
+        {
+            background-image: url("cat.jpg");
+            background-size: cover;
+            width: 350px;
+            height: 300px;
+            margin :2%;
+            color: rgb(192, 10, 10);
+        }
+        .img:hover
+        {
+            background-image: url("dog.jpg");
+            width: 350px;
+            height: 300px;
+            color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div class="img">
+        <h2>Hey! Keep cursor on the image to see a cute puppy</h2>
+    </div>
+</html>
